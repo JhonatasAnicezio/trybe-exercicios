@@ -1,0 +1,15 @@
+body{
+    background-color: #ffbd00;
+    border: 1px solid black;
+} 
+
+#cabecalho{
+    font-size: 30px;
+    text-align: center;
+    border:1px solid black;
+}
+
+.links li{
+    display: inline;
+}
+    
