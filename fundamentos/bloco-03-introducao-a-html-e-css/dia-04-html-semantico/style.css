@@ -1,6 +1,6 @@
 body{
     background-color: #ffbd00;
-    border: 1px solid black;
+    
 } 
 
 #cabecalho{
@@ -12,4 +12,15 @@ body{
 .links li{
     display: inline;
 }
+
+nav{
+    border: 1px solid black;
+}
     
+main{
+    border: 1px solid black;
+}
+
+#s1{
+    
+}
