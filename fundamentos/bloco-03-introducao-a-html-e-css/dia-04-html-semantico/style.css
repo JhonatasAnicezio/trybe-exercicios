@@ -1,26 +1,123 @@
 body{
-    background-color: #ffbd00;
-    
+    background-color: #390099;
+    margin-right: 50px;
+    margin-left: 50px;
 } 
 
 #cabecalho{
     font-size: 30px;
     text-align: center;
-    border:1px solid black;
+    background-color: #FFBD00;
+    border: 5px solid #9E0059;
 }
-
+#nome{
+    font-size: 15px;
+    text-align: center;
+    
+}
 .links li{
     display: inline;
+    padding: 80px;
+    
+}
+
+.links2 li{
+    display: inline;
+    padding: 78px;
+    
+}
+
+#linksborda{
+    border: 5px solid #9E0059;
 }
 
 nav{
-    border: 1px solid black;
+    background-color: #FFBD00;
+    
 }
     
 main{
-    border: 1px solid black;
+    background-color: #FFBD00;
+    border: 5px solid #9E0059;
 }
 
 #s1{
+    float: left;
+    top: 10%;
+    height: 100px;
+}
+
+p{
+    text-align: justify;
     
 }
+
+#stomatopota1{
+    margin-right: 400px;
+    display: inline-block;
+
+   
+}
+
+#img1{
+    
+    position: absolute;
+    margin-right: 190px;
+    right: 1px;
+    border: 5px solid #FF0054;
+    z-index: 2;
+
+}
+
+#img2{
+    
+    float:left;
+    height: 200px;
+    border: 5px solid #FF0054;
+
+}
+
+#img3{
+    float:right;
+    height: 200px;
+    border: 5px solid #FF0054;
+
+
+}
+
+#img4{
+    float:left;
+    height: 200px;
+    border: 5px solid #FF0054;
+}
+
+.cientifico{
+    display: inline-block  ;
+    height: 150px ;
+    width: 149PX;
+    position: absolute;
+    right: 1px;
+    margin-right: 55px;
+    z-index: 1;
+    
+}
+
+ #reino li{
+     font-size: 11px;
+     
+ }
+
+ #link_de_referencia{
+     font-size: 15px;
+     font-style: italic;
+     margin-left: 20px;
+ }
+
+ .rodape{
+    font-size: 15px;
+    text-align: center;
+    background-color: #FFBD00;
+    border: 5px solid #9E0059;
+ }
+
+ 
