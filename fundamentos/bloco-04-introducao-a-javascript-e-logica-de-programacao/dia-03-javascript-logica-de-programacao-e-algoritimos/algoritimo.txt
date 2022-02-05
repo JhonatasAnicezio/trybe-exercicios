@@ -1,0 +1,10 @@
+1 EXERCICIO - Fatorial de 10
+
+1 - criar constante com valor 10
+2 - criar variavel sem valor
+3 - criar array com valor 0 
+4 - criar um looping referente a array
+5 - fazer looping adicionar valores menor que a constante de valor 10
+6 - criar segundo looping com array modificada
+7 - fazer com que constante com o valor 10 seja multiplicada por cada elemto da array
+8 - adicionar valor a variavel sem valor
