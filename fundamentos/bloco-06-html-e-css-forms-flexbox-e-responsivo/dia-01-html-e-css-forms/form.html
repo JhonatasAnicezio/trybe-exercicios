@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body style="padding: 30px;">
+    <header style="text-align: center;"><h1>TrybeTrip</h1></header>
+    <main id="main" style="border: 1px solid black; 
+    padding: 30px; ">
+        <label for="name">Nome :</label>
+        <input type="text" name="name" id="name">
+        
+        <label for="email">E-mail:</label>
+        <input type="email">
+        
+        <label for="destinos">
+        <input type="radio" name="destinos" id="radio">Cidade
+        </label>
+        <label for="destinos">
+        <input type="radio" name="destinos" id="radio">Campo
+        </label>
+        <label for="destinos">
+        <input type="radio" name="destinos" id="radio">Praia
+        </label>
+        <label for="destinos">
+        <input type="radio" name="destinos" id="radio">Montanhas
+        </label>
+        
+        <h3>Espaço para digitar resposta:</h3>
+        <textarea name="resumo" id="resumo" cols="30" rows="10"></textarea>
+        
+        <label for="data"> Data :
+            <input type="date" name="data" id="data">
+        </label>
+        
+        <label for="opcao">Concordo 1
+            <input type="checkbox" name="opcao" id="opcao">
+        </label>
+        
+        <label for="opcao">Concordo 2
+            <input type="checkbox" name="opcao" id="opcao">
+        </label>
+
+        
+    
+    <input style="margin-top: 10px;" type="submit" id="enviar" value="ENVIAR">
+    <input style="margin-top: 10px;" type="reset" value="APAGAR">
+</main>
+    <script src="script.js"></script>
+</body>
+</html>
