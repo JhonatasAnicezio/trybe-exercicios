@@ -1,8 +1,9 @@
-let enviar = document.getElementById("enviar");
-let main = document.getElementById("main");
+let env = document.getElementById("enviar");
+let name = document.getElementById("name");
 
-function defaulto(){
-    event.preventDefault()
+function noo(event){
+    event.preventDefault();
 }
 
-enviar.addEventListener("click", defaulto)
+env.addEventListener("click", noo)
+
